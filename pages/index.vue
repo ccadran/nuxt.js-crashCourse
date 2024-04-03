@@ -1,3 +1,3 @@
 <template>
-  <div><Alert /></div>
+  <div class="main"></div>
 </template>
