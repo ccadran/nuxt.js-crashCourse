@@ -1,3 +1,7 @@
 <template>
-  <div class="main">main page</div>
+  <div class="main">
+    <h1>main page</h1>
+    <!-- <img src="/papillon-corail.png" alt="" /> -->
+    <IconsBell />
+  </div>
 </template>
