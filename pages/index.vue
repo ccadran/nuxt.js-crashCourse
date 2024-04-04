@@ -2,8 +2,13 @@
 // const { sayHello } = useUtils();
 // sayHello();
 const { $sayHello } = useNuxtApp();
-console.log(useNuxtApp());
 $sayHello("Guillaume");
+
+//define middleware
+
+definePageMeta({
+  middleware: "auth",
+});
 </script>
 
 <template>
