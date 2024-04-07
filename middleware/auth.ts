@@ -8,5 +8,5 @@ export default defineNuxtRouteMiddleware((to, from) => {
   // }
   // return navigateTo("/login");
   // //redirect to login page
-  console.log("Hello from middleware");
+  console.log("Hello from the middleware");
 });
