@@ -14,6 +14,7 @@ definePageMeta({
 <template>
   <div class="main">
     <h1>main page</h1>
+    <ContentDoc />
     <!-- <img src="/papillon-corail.png" alt="" /> -->
     <IconsBell />
   </div>
