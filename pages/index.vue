@@ -1,21 +1,15 @@
-<script setup>
-// const { sayHello } = useUtils();
-// sayHello();
-const { $sayHello } = useNuxtApp();
-$sayHello("Guillaume");
-
-//define middleware
-
-definePageMeta({
-  middleware: "auth",
-});
+<script setup lang="ts">
+import { useCounterStore } from "~/stores/mystore.js";
+const counter = useCount();
 </script>
 
 <template>
-  <div class="main">
-    <h1>main page</h1>
-    <ContentDoc />
-    <!-- <img src="/papillon-corail.png" alt="" /> -->
-    <IconsBell />
+  <div>
+    <div id="main">
+      Counter: {{ counter }}
+      <button @click="counter++">+</button>
+      <button @click="counter--">-</button>
+    </div>
+    <Counter id="counter" />
   </div>
 </template>
