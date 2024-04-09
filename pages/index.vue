@@ -2,11 +2,12 @@
 import { useCounterStore } from "~/stores/mystore.js";
 const counter = useCount();
 
-const { data: products, pending } = await useLazyFetch("/api/products");
+const { data: productCount, pending } = await useAsyncData("productCount", () =>
+  $fetch("/api/products")
+);
 </script>
 
 <template>
   <h1>Hello</h1>
-  <p>{{ pending ? "Loading" : products }}</p>
-  <Counter id="counter" />
+  <p>{{ pending ? "Loading" : productCount }}</p>
 </template>
