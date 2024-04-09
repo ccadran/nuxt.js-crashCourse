@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   },
 
   css: ["~/assets/main.scss"],
+  modules: ["@nuxt/content", "@pinia/nuxt"],
 
   postcss: {
     plugins: {
@@ -15,6 +16,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-
-  modules: ["@nuxt/content", "@pinia/nuxt"],
+  // ssr: true,
 });

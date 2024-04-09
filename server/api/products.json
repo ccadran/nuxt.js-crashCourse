@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "name": "Smartphone",
+      "brand": "Samsung",
+      "price": 599.99,
+      "stock": 50,
+      "color": "Black"
+    },
+    {
+      "name": "Laptop",
+      "brand": "Dell",
+      "price": 899.99,
+      "stock": 30,
+      "color": "Silver"
+    },
+    {
+      "name": "Wireless Headphones",
+      "brand": "Sony",
+      "price": 129.99,
+      "stock": 20,
+      "color": "Blue"
+    },
+    {
+      "name": "Smartwatch",
+      "brand": "Apple",
+      "price": 399.99,
+      "stock": 15,
+      "color": "Gray"
+    },
+    {
+      "name": "Gaming Laptop",
+      "brand": "MSI",
+      "price": 1499.99,
+      "stock": 10,
+      "color": "Black/Red"
+    },
+    {
+      "name": "Bluetooth Speaker",
+      "brand": "JBL",
+      "price": 79.99,
+      "stock": 25,
+      "color": "Black"
+    },
+    {
+      "name": "Action Camera",
+      "brand": "GoPro",
+      "price": 349.99,
+      "stock": 12,
+      "color": "White"
+    },
+    {
+      "name": "In-Ear Headphones",
+      "brand": "Bose",
+      "price": 199.99,
+      "stock": 18,
+      "color": "Black"
+    },
+    {
+      "name": "Tablet",
+      "brand": "Huawei",
+      "price": 299.99,
+      "stock": 22,
+      "color": "Gold"
+    },
+    {
+      "name": "Multifunction Printer",
+      "brand": "Canon",
+      "price": 129.99,
+      "stock": 15,
+      "color": "White"
+    }
+  ]
+}
